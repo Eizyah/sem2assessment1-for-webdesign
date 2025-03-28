@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.menu {
+background-color: black;
+text-align: right;
+padding: 25px 100px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.menu a {
+color: white;
+text-align: center;
+padding: 20px 53px;
+text-decoration: none;
+
+}
+
+.menu a:hover {
+background-color: whitesmoke;
+color: black;
+}
+
+.home {
+    text-align: left;
+    padding: 20px 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#para1 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 90px;
+    text-align: left;
+    text-indent: 2;
+    text-decoration: double;
+    font-family: Georgia;
+}
