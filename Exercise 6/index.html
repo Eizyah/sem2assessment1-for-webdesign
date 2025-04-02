@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body> 
+    <!--creates a section which can be called "box" in css -->
+    <div class="box">
+        <!--Contents inside the div-->
+        <h1>Petrol Calculator</h1> 
+        <label> Cost per liter</label><br>
+        <input type="number" id="price" value="1.72"><br>
+        <br>
+        <label>Liters Purchased:</label><br>
+        <input type="number" id="liter" value="0"><br>
+        <br>
+        <!--creating a button which on click will get called in js-->
+        <button onclick="total()">=</button>
+        <br>
+        <p id="totalcost">Total: 0.00AED</p>
+
+    </div>
+    <script>
+        //Creates a function with the id's from the html in it
+        function total() {
+            //creating 2 variables(price and liter) and containing that variable are id's from the html
+            var price = document.getElementById("price").value;
+            var liter = document.getElementById("liter").value;
+            //calculates the 2 variables(price and liter)
+            let total = price * liter;
+            //after calculating the 2 variables, this will show the total cost of the liters you purchased
+            document.getElementById("totalcost").innerHTML = "Total: " + total.toFixed(2) + "AED";
+        }
+    </script>
+</body>
+</html>

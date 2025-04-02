@@ -1,0 +1,49 @@
+/*Importing montserrat font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;/*setting all the fonts in the body to montserrat*/
+    margin: 0px; /*removes the default margin*/
+    text-align: center; /*Aligns all the text in the body to the center*/
+    background-color: rgb(66, 66, 66); /*changes the background to a gray-ish color*/
+}
+
+input {
+    padding: 7px; /*adding and changing the paddings in the input*/
+    width: 80%; /*consumes 80% of the container width*/
+    margin: 7px; /*add spaces a bit*/
+    border: 1.5px solid black; /*creates a black border on the input*/
+    border-radius: 5px; /*adds roundness in the border*/
+    font-size: 17px; /*changes the text sizes*/
+}
+
+button {
+    background-color: rgb(152, 190, 179); /*adds a color behind the button*/
+    color: white; /*turns the text to white*/
+    padding: 7px 15px; /*a bit of padding*/
+    border: 5px solid rgb(200, 231, 217); /*a border on the button*/
+    border-radius: 5px; /*adds roundness on the border */
+    cursor: pointer; /*when hovered, turns your cursor into a pointer*/
+    
+}
+
+button:hover {
+    background-color: rgb(115, 143, 135); /*when button is hovered, darkens the color*/
+}
+
+.box {
+    background-color: rgb(200, 231, 217); /*sets the background to greenish*/
+    padding: 15px; /*adding a padding for the box*/
+    width: 20%; /*consumes the width till 20%*/
+    margin-top: 10%; /*adds a bit of space on the top*/
+    margin-left: auto; /*centers the box*/
+    margin-right: auto;
+    border: 5px solid rgb(155, 196, 196);/*adds a border on the box*/
+    border-radius: 20px; /*rounds the border*/
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 10) /*adds shadow effect behind the box*/
+}
+
+p {
+    font-size: 20px; /*changes the font size*/
+    margin-top: 7px; /*adds a bit of height */
+}
